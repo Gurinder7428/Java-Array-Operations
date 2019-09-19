@@ -21,7 +21,7 @@ public class arrayOperations {
 	public static int even(int arr1[])
 	{
 		int count=0;
-		for(int i=0;i<=arr1.length;i++)
+		for(int i=0;i<arr1.length;i++)
 			if(arr1[i]%2==0)
 				count++;
 		return count;
@@ -31,7 +31,7 @@ public class arrayOperations {
 	public static int odd(int arr1[])
 	{
 		int count=0;
-		for(int i=0;i<=arr1.length;i++)
+		for(int i=0;i<arr1.length;i++)
 			if(arr1[i]%2==1)
 				count++;
 		return count;
@@ -41,7 +41,7 @@ public class arrayOperations {
 	public static int count(int arr1[])
 	{
 		int counter=0;
-		for(int i=0;i<=arr1.length;i++)
+		for(int i=0;i<arr1.length;i++)
 			if(arr1[i]>avg(arr1))
 				counter++;
 		return counter;
